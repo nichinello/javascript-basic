@@ -13,16 +13,19 @@
 
 function es2_1(a, b) {
   // 1. Restituisci true se a è maggiore di b
+  return a > b; 
   // TODO: scrivi qui la tua soluzione
 }
 
 function es2_2(a, b) {
   // 2. Restituisci true se a è minore o uguale a b
+  return a <= b;
   // TODO: scrivi qui la tua soluzione
 }
 
 function es2_3(eta) {
   // 3. Restituisci true se eta è >= 18 (maggiorenne)
+  return eta > 18;
   // TODO: scrivi qui la tua soluzione
 }
 

@@ -10,16 +10,19 @@
 
 function es3_1(a, b) {
   // 1. Restituisci true se a E b sono entrambi veri
+  return a && b;
   // TODO: scrivi qui la tua soluzione
 }
 
 function es3_2() {
   // 2. Restituisci il risultato di true && false
+  return true && false;
   // TODO: scrivi qui la tua soluzione
 }
 
 function es3_3(eta, patente) {
   // 3. Restituisci true se eta >= 18 E patente è true
+  return eta >= 18 && patente;
   // TODO: scrivi qui la tua soluzione
 }
 

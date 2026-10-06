@@ -10,16 +10,19 @@
 
 function es4_1(a, b) {
   // 1. Restituisci true se a OPPURE b è vero
+  return a || b;
   // TODO: scrivi qui la tua soluzione
 }
 
 function es4_2() {
   // 2. Restituisci il risultato di false || false
+  return false || false;
   // TODO: scrivi qui la tua soluzione
 }
 
 function es4_3(isAdmin, isEditor) {
   // 3. Restituisci true se l'utente è admin OPPURE editor
+  return isAdmin || isEditor;
   // TODO: scrivi qui la tua soluzione
 }
 
